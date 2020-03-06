@@ -3,3 +3,14 @@
 ################################################################################
 
 /FizzBuzzJazzFuzz/.vs/FizzBuzzJazzFuzz/v16
+/.vs
+/FizzBuzzJazzFuzz/src/Oppgave1_FizzBuzz/.vs/Oppgave1_FizzBuzz
+/FizzBuzzJazzFuzz/src/Oppgave1_FizzBuzz/bin/Debug/netcoreapp3.1
+/FizzBuzzJazzFuzz/src/Oppgave1_FizzBuzz/obj
+/FizzBuzzJazzFuzz/src/Oppgave1_FizzBuzz_Test/bin/Debug/netcoreapp3.1
+/FizzBuzzJazzFuzz/src/Oppgave1_FizzBuzz_Test/obj
+/FizzBuzzJazzFuzz/src/Oppgave2_FizzBuzzJazzFuzz/.vs/Oppgave2_FizzBuzzJazzFuzz
+/FizzBuzzJazzFuzz/src/Oppgave2_FizzBuzzJazzFuzz/bin/Debug/netcoreapp3.1
+/FizzBuzzJazzFuzz/src/Oppgave2_FizzBuzzJazzFuzz/obj
+/FizzBuzzJazzFuzz/src/Oppgave2_FizzBuzzJazzFuzz_Test/bin/Debug/netcoreapp3.1
+/FizzBuzzJazzFuzz/src/Oppgave2_FizzBuzzJazzFuzz_Test/obj
