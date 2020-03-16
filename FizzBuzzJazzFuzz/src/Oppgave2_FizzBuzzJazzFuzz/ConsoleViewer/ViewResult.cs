@@ -15,13 +15,17 @@ namespace Oppgave2_FizzBuzzJazzFuzz.ConsoleViewer
             _generateFizzBuzzList = generateFizzBuzzList;
             _config = config;
         }
-       
+
+
+        
         public void ViewResults()
         {
+            //Hva er årsaken til at du ikke itererer på _config?
             var configSeviceFizzBuzz = _config.FirstOrDefault(o => o.GetType() == typeof(FizzBuzzConfig));
             var rangeListValues = Enumerable.Range(1, 100).ToList();
+            //Klarer du å skrive om dette så den er mindre utsatt for train wreck?
             rangeListValues.ForEach(x => Console.WriteLine(_generateFizzBuzzList.GetListValues(x, configSeviceFizzBuzz)));
-
+            
             var configSeviceJazzFuzz = _config.FirstOrDefault(o => o.GetType() == typeof(JazzFuzzConfig));
             rangeListValues = Enumerable.Range(1, 100).Reverse().ToList();
             rangeListValues.ForEach(x => Console.WriteLine(_generateFizzBuzzList.GetListValues(x, configSeviceJazzFuzz)));

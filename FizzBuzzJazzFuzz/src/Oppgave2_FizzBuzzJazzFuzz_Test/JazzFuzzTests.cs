@@ -30,6 +30,7 @@ namespace Oppgave2_FizzBuzzJazzFuzz_Test
         }
 
         [Test]
+        //Hva er gevinsten med å slå over til delvis norsk her?
         public void TestOrdinærValue()
         {
             RefValue = 10;
