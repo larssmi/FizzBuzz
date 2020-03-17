@@ -5,11 +5,11 @@ namespace Oppgave2_FizzBuzzJazzFuzz.Configuration
 {
     public class FizzBuzzConfig: IConfig
     {
-        public List<ConfigParamModel> GetKeyValue()
+        public IEnumerable<ConfigParamModel> GetKeyValue()
         {
             return new List<ConfigParamModel>
-            {    new ConfigParamModel { Key = 3, ReplaceText = "Fizz" },
-                new ConfigParamModel { Key = 5, ReplaceText = "Buzz" }
+            {    new ConfigParamModel { KeyValue = 3, ReplaceText = "Fizz" },
+                new ConfigParamModel { KeyValue = 5, ReplaceText = "Buzz" }
             };
         }
     }

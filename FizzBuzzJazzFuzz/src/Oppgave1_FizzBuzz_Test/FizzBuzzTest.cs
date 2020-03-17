@@ -27,7 +27,7 @@ namespace Oppgave1_FizzBuzz_Test
         public void TestOrdinærValue()
         {
             RefValue = 1;
-            var result = _generateFizzBuzzList.GetListValues(RefValue);
+            var result = _generateFizzBuzzList.GenerateValues(RefValue);
             Assert.AreEqual("1", result);
         }
 
@@ -35,7 +35,7 @@ namespace Oppgave1_FizzBuzz_Test
         public void TestFizz()
         {
             RefValue = 3;
-            var result = _generateFizzBuzzList.GetListValues(RefValue);
+            var result = _generateFizzBuzzList.GenerateValues(RefValue);
             Assert.AreEqual("Fizz", result);
         }
 
@@ -43,7 +43,7 @@ namespace Oppgave1_FizzBuzz_Test
         public void TestBuzz()
         {
             RefValue = 10;
-            var result = _generateFizzBuzzList.GetListValues(RefValue);
+            var result = _generateFizzBuzzList.GenerateValues(RefValue);
             Assert.AreEqual("Buzz", result);
         }
 
@@ -51,7 +51,7 @@ namespace Oppgave1_FizzBuzz_Test
         public void TestFizzBuzz()
         {
             RefValue = 15;
-            var result = _generateFizzBuzzList.GetListValues(RefValue);
+            var result = _generateFizzBuzzList.GenerateValues(RefValue);
             Assert.AreEqual("FizzBuzz", result);
         }
     }

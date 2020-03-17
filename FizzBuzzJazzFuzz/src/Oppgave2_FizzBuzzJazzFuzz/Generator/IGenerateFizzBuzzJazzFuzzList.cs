@@ -4,6 +4,6 @@ namespace Oppgave2_FizzBuzzJazzFuzz.Generator
 {
     public interface IGenerateFizzBuzzJazzFuzzList
     {
-        string GetListValues(int num, IConfig fizzBuzzConfig);
+        string GenerateValues(int num, IConfig fizzBuzzConfig);
     }
 }

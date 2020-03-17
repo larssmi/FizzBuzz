@@ -31,10 +31,11 @@ namespace Oppgave2_FizzBuzzJazzFuzz_Test
 
         [Test]
         //Hva er gevinsten med å slå over til delvis norsk her?
-        public void TestOrdinærValue()
+        //Dette er en liten trykkfeil og skal være TestOrdinaryValue    
+        public void TestOrdinaryValue()
         {
             RefValue = 10;
-            var result = _generateFizzBuzzList.GetListValues(RefValue, _configJazzFuzz);
+            var result = _generateFizzBuzzList.GenerateValues(RefValue, _configJazzFuzz);
             Assert.AreEqual("10", result);
         }
 
@@ -42,7 +43,7 @@ namespace Oppgave2_FizzBuzzJazzFuzz_Test
         public void TestJazz()
         {
             RefValue = 18;
-            var result = _generateFizzBuzzList.GetListValues(RefValue, _configJazzFuzz);
+            var result = _generateFizzBuzzList.GenerateValues(RefValue, _configJazzFuzz);
             Assert.AreEqual("Jazz", result);
         }
 
@@ -50,7 +51,7 @@ namespace Oppgave2_FizzBuzzJazzFuzz_Test
         public void TestFuzz()
         {
             RefValue = 20;
-            var result = _generateFizzBuzzList.GetListValues(RefValue, _configJazzFuzz);
+            var result = _generateFizzBuzzList.GenerateValues(RefValue, _configJazzFuzz);
             Assert.AreEqual("Fuzz", result);
         }
 
@@ -58,7 +59,7 @@ namespace Oppgave2_FizzBuzzJazzFuzz_Test
         public void TestJazzFuzz()
         {
             RefValue = 72;
-            var result = _generateFizzBuzzList.GetListValues(RefValue, _configJazzFuzz);
+            var result = _generateFizzBuzzList.GenerateValues(RefValue, _configJazzFuzz);
             Assert.AreEqual("JazzFuzz", result);
         }
     }

@@ -5,6 +5,6 @@ namespace Oppgave1_FizzBuzz.Configuration
 {
     public interface IFizzBuzzConfig
     {
-        List<ConfigParamModel> GetKeyValue();
+        IEnumerable<ConfigParamModel> GetKeyValue();
     }
 }

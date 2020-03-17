@@ -2,7 +2,7 @@
 {
     public class ConfigParamModel
     {
-        public int Key { get; set; }
+        public int KeyValue { get; set; }
         public string ReplaceText { get; set; }
     }
 }

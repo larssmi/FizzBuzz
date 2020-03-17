@@ -10,13 +10,13 @@ namespace Oppgave1_FizzBuzz.Generator
             _fizzBuzzConfig = fizzBuzzConfig;
         }
       
-        public string GetListValues(int num)
+        public string GenerateValues(int num)
         {
          
             string retVal = null;
             foreach (var item in _fizzBuzzConfig.GetKeyValue())
             {
-                if (num % item.Key == 0)
+                if (num % item.KeyValue == 0)
                 {
                     retVal += item.ReplaceText;
                 }
